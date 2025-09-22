@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 200%;
+      }
+      .ctn {
+        background: linear-gradient(360deg, #2193b0, #6dd5ed);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50rem;
+      }
+      .content {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2rem;
+        border-radius: 10px;
+        max-width: 400px;
+      }
+      .logo {
+        width: 150px;
+        object-fit: contain;
+      }
+      h1 {
+        margin-bottom: 0.5rem;
+      }
+      p {
+        color: gray;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input[type="email"] {
+        padding: 5px;
+        border-radius: 4px;
+        border: 1px solid;
+        margin-bottom: 1rem;
+      }
+      button {
+        border: none;
+        border-radius: 2px;
+        background-color: lightblue;
+        width: 120px;
+        margin-left: 140px;
+      }
+      button:hover {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ctn">
+      <div class="content">
+        <img src="Assets/css/onepiece-logo.png" class="logo" alt="logo" />
+        <h1>Launching soon....</h1>
+        <p>
+          We are under construction for building a website for One Piece
+          fans!!🤩
+        </p>
+        <form>
+          <label for="email"
+            ><input type="email" placeholder="enter your email" required
+          /></label>
+          <button type="submit">Notify Me</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
